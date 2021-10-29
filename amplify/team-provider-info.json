@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "iiteamtoolsc1cfbb52": {}
+      },
+      "function": {
+        "iiTeamToolsApiCzars": {
+          "deploymentBucketName": "amplify-iiteamtools-dev-25106-deployment",
+          "s3Key": "amplify-builds/iiTeamToolsApiCzars-42623334702b6d553572-build.zip"
+        }
       }
     }
   }

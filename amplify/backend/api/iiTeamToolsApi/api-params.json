@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/czar/{team}",
+      "lambdaFunction": "iiTeamToolsApiCzars",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/czar/*"
+    }
+  ],
+  "resourceName": "iiTeamToolsApi",
+  "apiName": "iiTeamToolsApi",
+  "functionArns": [
+    {
+      "lambdaFunction": "iiTeamToolsApiCzars"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-iiteamtools-dev-25106-authRole",
+    "unAuthRoleName": "amplify-iiteamtools-dev-25106-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "iiTeamToolsApiCzars",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

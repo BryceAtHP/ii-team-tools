@@ -1,0 +1,7 @@
+{
+    "tableName": "iiTeamToolsCzars",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S",
+    "sortKeyName": "name",
+    "sortKeyType": "S"
+}
